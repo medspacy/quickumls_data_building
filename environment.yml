@@ -14,4 +14,9 @@ dependencies:
   - pip:
       - quickumls_simstring>=1.1.5r1
       - unqlite>=0.8.1
+      # this needs to be run after install since the below is not working:
+      # pip install --no-deps quickumls
+      # now we can install this with no dependencies
+      #- --no-deps
+      #- quickumls>=1.4.0
 
