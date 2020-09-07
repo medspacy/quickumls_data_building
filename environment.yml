@@ -1,0 +1,17 @@
+name: quickumls_data_building
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - spacy
+  - leveldb
+  - numpy>=1.8.2
+  - spacy>=1.6.0
+  - unidecode>=0.4.19
+  - nltk>=3.3
+  - pip
+  - pip:
+      - quickumls_simstring>=1.1.5r1
+      - unqlite>=0.8.1
+
