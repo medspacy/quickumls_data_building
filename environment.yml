@@ -10,6 +10,7 @@ dependencies:
   - spacy>=1.6.0
   - unidecode>=0.4.19
   - nltk>=3.3
+  - nb_conda
   - pip
   - pip:
       - quickumls_simstring>=1.1.5r1
