@@ -15,11 +15,9 @@ dependencies:
   - nb_conda
   - pip
   - pip:
-      - quickumls_simstring>=1.1.5r1
+      # Recent quickumls_simstring still fails, so run these instead:
+      # pip install git+https://github.com/burgersmoke/simstring.git
+      # pip install --no-deps git+https://github.com/burgersmoke/quickumls.git@issue_60_spacy_entity_overlap
+      #- quickumls_simstring>=1.1.5r1
       - unqlite>=0.8.1
-      # this needs to be run after install since the below is not working:
-      # pip install --no-deps quickumls
-      # now we can install this with no dependencies
-      #- --no-deps
-      #- quickumls>=1.4.0
 
